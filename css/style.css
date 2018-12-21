@@ -1,0 +1,153 @@
+body {
+ 	background-color: white;
+}
+
+.eight {
+	color: white;
+	background-color: tan;
+	text-align: center;
+
+} 
+
+.eight h4 {
+	font-style: italic;
+	color: black;
+}
+
+.eight ul {
+	font-size: 15px;
+	color: black;
+}
+	
+
+/*PERSONAL BACKGROUND*/
+.column {
+	background-image: url(../images/wood.jpeg);
+	background-attachment: fixed;
+	padding: 25px;
+	margin: 5px;
+}
+
+.twelve {
+	color: white;
+	background-color: tan;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+/*OBJECTIVES*/
+.column1 p {
+	font-style: italic;
+	color: black;
+}
+
+/*EDUCATIONAL ATTAINMENT*/
+.column2 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.six {
+	color: white;
+	background-color: tan;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.container2 {
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	color: black;
+	margin: 5px;
+}
+
+.container2 >div {
+	margin: 10px;
+}
+
+#box1 {
+	background-color: white;
+}
+#box2 {
+	background-color: white;
+}
+#box3 {
+	background-color: white;
+}
+#box4 {
+	background-color: white;
+}
+
+/*WORKING EXPERIENCES*/
+.container3 {
+	color: white;
+	background-color: tan;
+	text-align: center;
+}
+
+.container3 {
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: 1fr 1fr;
+	color: black;
+}
+
+#box5 {
+	background-color: white;
+}
+#box6 {
+	background-color: white;
+}
+
+.container3 >div {
+	margin: 10px;
+}
+
+.container3 li {
+	font-size: 15px;
+}
+
+.container3 p {
+	font-style: italic;
+}
+
+/*SUMMARY OF SKILLS*/
+.column3 p {
+	font-style: italic;
+	color: black;
+}
+
+/*CHARACTER REFERENCES*/
+.container4 {
+	color: white;
+	background-color: tan;
+	text-align: center;
+}
+
+.container4 {
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: 1fr 1fr 1fr;
+	color: black;
+	margin: 5px;
+}
+
+#box7 {
+	background-color: white;
+}
+#box8 {
+	background-color: white;
+}
+#box9 {
+	background-color: white;
+}
+
+.container4 >div {
+	margin: 10px;
+}
+
+.column4 ul {
+	font-size: 18px;
+}
